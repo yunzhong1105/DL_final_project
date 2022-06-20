@@ -13,3 +13,7 @@ Swin Transformer採用的預訓練模型為swin_tiny_patch4_window7_224(下載�
 python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345  main.py \
 --cfg configs/swin_tiny_patch4_window7_224.yaml  --batch-size 8
 ```
+
+****
+
+VGG-16、EfficientNet-B4、Bilinear VGG-16、ResNet可使用other_networks.ipynb實現，只需從頭到尾執行即可
