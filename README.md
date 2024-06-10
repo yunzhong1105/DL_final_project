@@ -1,4 +1,4 @@
-# DL_final_project
+# DL final project
 我們將模型分類成兩個資料夾：(一)Swin Transformer(二)Other Networks
 
 VGG-16、EfficientNet-B4、Bilinear VGG-16、ResNet皆存於(二)中
@@ -16,4 +16,4 @@ python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345  main.
 
 ****
 
-VGG-16、EfficientNet-B4、Bilinear VGG-16、ResNet可使用other_networks.ipynb實現，只需從頭到尾執行即可
+VGG-16、EfficientNet-B4、Bilinear VGG-16、ResNet可使用other_networks.ipynb實現，只需執行.ipynb內的cell即可
